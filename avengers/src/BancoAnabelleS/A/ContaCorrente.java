@@ -18,7 +18,7 @@ public class ContaCorrente extends Conta {
 	    
 	public void Deposito (double valor) { 
 		this.setSaldo(valor + this.getSaldo());
-		System.out.println("Deposito realizado com sucesso no valor de: R$ " );
+		System.out.println("Deposito realizado com sucesso no valor de: R$ " + valor);
 }
 	
 
